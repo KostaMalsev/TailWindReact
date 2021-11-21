@@ -12,7 +12,11 @@
 
   <script src="https://unpkg.com/react/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  
+  <!-- <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.17.0/babel.min.js"></script>
+
   
 </head>
 
@@ -38,9 +42,11 @@
 
 <p> stam </p>
 
-<script type="text/babel" data-type="module">
+<script type="text/babel" data-presets="es2015,react">
 
-
+const getMessage = () => "Hello World";
+  document.getElementById("output").innerHTML = getMessage();
+  
 ReactDOM.render(
   <h1>Hello, world!</h1>,
   document.getElementById('root')
