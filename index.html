@@ -43,14 +43,18 @@
 
 <script type="text/babel">
 
-const getMessage = () => "Hello World";
-  document.getElementById("output").innerHTML = getMessage();
-  
-  console.log('here from react Kosta');
-    
-ReactDOM.render(
-  <h1>Hello, aaaa!</h1>,
-  document.getElementById('root')
+cconst Component = props => {
+		return (<div>My component!</div>);
+	};
+
+	const App = () => (
+		<div className="App">
+			<Component />
+		</div>
+	);
+
+	const root = document.querySelector('#root');
+	ReactDOM.render(<App />, root );
 
 );
  
