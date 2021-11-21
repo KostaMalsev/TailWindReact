@@ -26,58 +26,25 @@
 
   <script src="https://unpkg.com/react/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
-  <script src="app.js" type="text/babel" defer></script>
-
-  <!-- Production packages:
-  <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-  -->
+  
+  <script data-plugins="transform-es2015-modules-umd" type="text/babel" src="app.js" defer></script>
   
   
-  <!-- copy below script body to React project -->
-  <!--<script type="text/babel">-->
+<script data-plugins="transform-es2015-modules-umd" type="text/babel">
   
-<!--<div id="root"> <div>-->
-  
-<!--<script type="text/babel"> -->
+  import MyExport from "./MyExport";
+  const App = () => {
+      return (
+          <MyExport/>
+      );
+  };
+  ReactDOM.render(<App />, document.querySelector("#root"));
 
-
-<!--<script type="text/babel" defer > -->
-<script type="text/babel" defer>
-
-  console.log('starting react script')
-
-  const newDiv = document.createElement("div");
-
-  // and give it some content
-  const newContent = document.createTextNode("Hi there and greetings!");
-
-  // add the text node to the newly created div
-  newDiv.appendChild(newContent);
-
-  // add the newly created element and its content into the DOM
-  const currentDiv = document.getElementById("div1");
-  document.body.insertBefore(newDiv, currentDiv);
-  
-  
-  
-
-const Component = props => {
-		return (<div>My component!</div>);
-	};
-
-	const App = () => (
-		<div className="App">
-			<Component />
-		</div>
-	);
-
-	const root = document.querySelector('#root');
-	ReactDOM.render(<App />, root );
-
-);
-  
 </script>
+
+  
+
+
 
   
   
