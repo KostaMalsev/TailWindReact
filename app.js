@@ -2,7 +2,9 @@
 //  MyExport.js:
 const MyExport = () => {
     return (
+    /*
         <div>MyExport element is imported!</div>
+        */
     );
 };
 
