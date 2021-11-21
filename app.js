@@ -1,11 +1,11 @@
 
 //  MyExport.js:
 const MyExport = () => {
-    return (
+    return ( "stam");
     /*
         <div>MyExport element is imported!</div>
         */
-    );
+    //);
 };
 
 export default MyExport;
