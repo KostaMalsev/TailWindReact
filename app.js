@@ -1,5 +1,5 @@
 //TODO
-console.log('starting react script')
+  console.log('starting react script')
 
   const newDiv = document.createElement("div");
 
