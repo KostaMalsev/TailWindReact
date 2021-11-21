@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+/*
 //TODO
   console.log('starting react script')
 
@@ -26,7 +38,7 @@ const Component = props => {
 			<Component />
 		</div>
 	);
-
+*/
 	/*
 
 <!--<script type="text/babel" defer > -->
