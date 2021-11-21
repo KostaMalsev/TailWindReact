@@ -15,6 +15,7 @@ console.log('starting react script')
   
   
   
+  
 
 const Component = props => {
 		return (<div>My component!</div>);
