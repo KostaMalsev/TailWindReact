@@ -1,6 +1,6 @@
 
 //  MyExport.js:
-const MyExport = () => {
+const app = () => {
     return ( "stam");
     /*
         <div>MyExport element is imported!</div>
@@ -8,7 +8,7 @@ const MyExport = () => {
     //);
 };
 
-export default MyExport;
+export default app;
 
 
 
