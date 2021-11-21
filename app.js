@@ -65,4 +65,20 @@ const Component = props => {
 );
   
 </script>
+
+
+
+
+<!-- Production packages:
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+  -->
+  
+  
+  <!-- copy below script body to React project -->
+  <!--<script type="text/babel">-->
+  
+<!--<div id="root"> <div>-->
+  
+<!--<script type="text/babel"> -->
 */
